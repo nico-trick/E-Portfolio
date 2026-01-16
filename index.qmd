@@ -19,8 +19,6 @@ about:
       href: mailto:melser@student.ubc.ca
 ---
 
-Hey there people,
+## About Me
 
-This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
-
-Write something about myself, very exciting.
+I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia.

@@ -4,7 +4,12 @@ title: "Resume"
 
 # Education
 
--   List your education here.
+Master of Science, Computer Science --- Sept 2022 – Dec 2024
+
+University of Saskatchewan 
+
+- Thesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips
+
 
 # Publications
 
