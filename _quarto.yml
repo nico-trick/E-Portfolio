@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: C:/Users/melser/Documents/GitHub/E-Portfolio
+  output-dir: C:\Users\ntrick8.stu\OneDrive - UBC\Documents\GitHub\E-Portfolio
 
 website:
   title: "Your E-Portfolio"
@@ -14,7 +14,8 @@ website:
         text: Publications
       - href: content.qmd
         text: Content & Deliverables
-
+     
+     
 format:
   html:
     theme: flatly

@@ -1,6 +1,6 @@
 ---
-title: "My E-Portfolio"
-image: images/MGEM_logo.png
+title: "Nico Trick"
+image: images/dog.jpg
 about:
   template: trestles
   image-width: 20em
