@@ -1,82 +1,93 @@
 ---
 title: "Resume"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 # Education
-Master of Geomatics for Environmental Management --- Sept 2025 – Present
 
-University of British Columbia 
+**Master of Geomatics for Environmental Management --- Sept 2025 –
+Present\
+**University of British Columbia
 
--	Capstone: “Mapping movement corridors of the unique canyon-dwelling Oreamnos Americanus in Pinto Creek Canyon to neighbouring herds”
+-   Capstone: “Mapping movement corridors of the unique canyon-dwelling
+    Oreamnos Americanus in Pinto Creek Canyon to neighbouring herds”
 
+**Master of Science, Computer Science --- Sept 2022 – Dec 2024\
+**University of Saskatchewan
 
+-   Thesis: “Accessibility in Video Game Design”; co-supervised by Lori
+    Bradford and Cody Phillips
 
-Master of Science, Computer Science --- Sept 2022 – Dec 2024
-
-University of Saskatchewan 
-
-- Thesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips
-
-Bachelor of Arts and Science, Interactive Systems Design --- Sept 2017 – Apr 2022
-University of Saskatchewan (With Great Distinction)
+**Bachelor of Arts and Science, Interactive Systems Design --- Sept 2017
+– Apr 2022\
+**University of Saskatchewan (With Great Distinction)
 
 # Employment
-Information Technology/Mobile Design Technician --- Oct 2024 – March 2025 
-Engineering Mutualism Design Lab, University of Saskatchewan  
-•	Designated 3D printer and 3D scanner operator
-•	Designed and built interactive models to engage community in research projects
-•	Worked with Blender and Ultimaker Cura
 
-Research Assistant, SharedSpaces          	     			          Oct 2023 – July 2024 
-•	Managed 3D artwork database, implemented Augmented Reality (AR) experiences in the SharedSpaces app
-•	Redesigned app UI using Figma and Unity, tested new design using user surveys
-•	Created and led youth workshops on 3D modelling
-Research Assistant, Environmental Material Science (EMS Inc.)        Sept 2022 – Jan 2023 
-•	Designed visualizations for hydrocarbon plumes for environmental monitoring
-•	Conducted quantitative analysis and participant interviews to analyze risk assessment 
-Teaching/Marking Assistant (CMPT140/360/481) 		                     Sept 2022 – Apr 2024 
-University of Saskatchewan  
-•	Ran tutorial labs and provided one-on-one assistance for computer science students
-•	Evaluated assignments and exams
-Undergraduate Student Research Awards Student   	       	           May 2022 – Aug 2022
-University of Saskatchewan  
-•	Developed qualitative and quantitative research skills by developing and running a video game accessibility content analysis
-Web Designer, Clearwater River Dene First Nation 	        	         July 2021 – Sept 2021 
-•	Designed and implemented a website for the Enhancing Climate Literacy: Collective Climate Accountability and Adaptation Project
-Research Assistant, Biology Department	      	  	         	       June 2019 – Sept 2019 
-University of Saskatchewan  
-•	Collected and processed samples from wetlands throughout Saskatchewan for a biodiversity research program monitoring invertebrate populations in farmlands
+**Information Technology/Mobile Design Technician --- Oct 2024 – March
+2025** \
+Engineering Mutualism Design Lab, University of Saskatchewan
 
+-   Designated 3D printer and 3D scanner operator
+-   Designed and built interactive models to engage community in
+    research projects
+-   Worked with Blender and Ultimaker Cura
 
+**Research Assistant — Oct 2023 – July 2024** \
+SharedSpaces
+
+-   Managed 3D artwork database, implemented Augmented Reality (AR)
+    experiences in the SharedSpaces app
+-   Redesigned app UI using Figma and Unity, tested new design using
+    user surveys
+-   Created and led youth workshops on 3D modelling
+
+**Research Assistant — Sept 2022 – Jan 2023** \
+Environmental Material Science (EMS Inc.)
+
+-   Designed visualizations for hydrocarbon plumes for environmental
+    monitoring
+-   Conducted quantitative analysis and participant interviews to
+    analyze risk assessment
+
+**Undergraduate Student Research Awards Student — May 2022 – Aug 2022**
+\
+University of Saskatchewan
+
+-   Developed qualitative and quantitative research skills by developing
+    and running a video game accessibility content analysis
+
+**Project Research Assistant — June 2019 – Sept 2019** \
+Biology Department, University of Saskatchewan
+
+-   Collected and processed samples from wetlands throughout
+    Saskatchewan for a biodiversity research program monitoring
+    invertebrate populations in farmlands
 
 # Publications
 
-*Peer-reviewed publications:*
-
--   List any peer-reviewed publications here.
-
-*Reports:*
-
--   List any non-peer reviewed materials you'd like to share here.
+Trick, N. (2024). *Accessibility In Video Game Design* (Masters
+dissertation).
 
 # Conferences & Talks
 
-*Invited Talks*
+**Panel: The Role of Generative AI in Games Research — 12 October
+2023**\
+CHI PLAY '23
 
--   If you've been invited to speak in a professional setting, list that here.
-
-*Conference Presentations*
-
--   If the presentation was at a conference, list them here.
-
-# Awards & Honors
-
--   List any scholarships, bursaries, etc.
+-   Invited speaker representing the use and ethics of generative
+    artificial intelligence in regards to disability, digital games, and
+    academia.
 
 # Teaching Assistantships
 
--   List any TA positions you may have held.
+**Courses: CMPT140/360/481 — Sept 2022 – Apr 2024** \
+University of Saskatchewan
 
-# Institutional Service
+-   Ran tutorial labs and provided one-on-one assistance for computer
+    science students
+-   Evaluated assignments and exams
 
--   Volunteering etc.
+# 
