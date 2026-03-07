@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Education\nMaster of Geomatics for Environmental Management — Sept 2025 – Present\nUniversity of British Columbia\n\nCapstone: “Mapping movement corridors of the unique canyon-dwelling Oreamnos Americanus in Pinto Creek Canyon to neighbouring herds”\n\nMaster of Science, Computer Science — Sept 2022 – Dec 2024\nUniversity of Saskatchewan\n\nThesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips\n\nBachelor of Arts and Science, Interactive Systems Design — Sept 2017 – Apr 2022 University of Saskatchewan (With Great Distinction)\n\n\nEmployment\nInformation Technology/Mobile Design Technician — Oct 2024 – March 2025 Engineering Mutualism Design Lab, University of Saskatchewan\n• Designated 3D printer and 3D scanner operator • Designed and built interactive models to engage community in research projects • Worked with Blender and Ultimaker Cura\nResearch Assistant, SharedSpaces Oct 2023 – July 2024 • Managed 3D artwork database, implemented Augmented Reality (AR) experiences in the SharedSpaces app • Redesigned app UI using Figma and Unity, tested new design using user surveys • Created and led youth workshops on 3D modelling Research Assistant, Environmental Material Science (EMS Inc.) Sept 2022 – Jan 2023 • Designed visualizations for hydrocarbon plumes for environmental monitoring • Conducted quantitative analysis and participant interviews to analyze risk assessment Teaching/Marking Assistant (CMPT140/360/481) Sept 2022 – Apr 2024 University of Saskatchewan\n• Ran tutorial labs and provided one-on-one assistance for computer science students • Evaluated assignments and exams Undergraduate Student Research Awards Student May 2022 – Aug 2022 University of Saskatchewan\n• Developed qualitative and quantitative research skills by developing and running a video game accessibility content analysis Web Designer, Clearwater River Dene First Nation July 2021 – Sept 2021 • Designed and implemented a website for the Enhancing Climate Literacy: Collective Climate Accountability and Adaptation Project Research Assistant, Biology Department June 2019 – Sept 2019 University of Saskatchewan\n• Collected and processed samples from wetlands throughout Saskatchewan for a biodiversity research program monitoring invertebrate populations in farmlands\n\n\nPublications\nPeer-reviewed publications:\n\nList any peer-reviewed publications here.\n\nReports:\n\nList any non-peer reviewed materials you’d like to share here.\n\n\n\nConferences & Talks\nInvited Talks\n\nIf you’ve been invited to speak in a professional setting, list that here.\n\nConference Presentations\n\nIf the presentation was at a conference, list them here.\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc.\n\n\n\nTeaching Assistantships\n\nList any TA positions you may have held.\n\n\n\nInstitutional Service\n\nVolunteering etc."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nico Trick",
@@ -7,25 +14,32 @@
     "text": "I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia."
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Nico Trick",
     "section": "",
-    "text": "Education\nMaster of Science, Computer Science — Sept 2022 – Dec 2024\nUniversity of Saskatchewan\n\nThesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips\n\n\n\nPublications\nPeer-reviewed publications:\n\nList any peer-reviewed publications here.\n\nReports:\n\nList any non-peer reviewed materials you’d like to share here.\n\n\n\nConferences & Talks\nInvited Talks\n\nIf you’ve been invited to speak in a professional setting, list that here.\n\nConference Presentations\n\nIf the presentation was at a conference, list them here.\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc.\n\n\n\nTeaching Assistantships\n\nList any TA positions you may have held.\n\n\n\nInstitutional Service\n\nVolunteering etc."
+    "text": "I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "contact",
     "section": "",
-    "text": "Peer-reviewed publications:\nDespite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to ‘most recent’ publications, or categorize things by project/topic."
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
-    "objectID": "content_development.html",
-    "href": "content_development.html",
-    "title": "Content & Deliverables",
+    "objectID": "contact.html#quarto",
+    "href": "contact.html#quarto",
+    "title": "contact",
     "section": "",
-    "text": "Project Deliverable 1\nThis is a sample page where you can archive project deliverables."
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "contact.html#running-code",
+    "href": "contact.html#running-code",
+    "title": "contact",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   },
   {
     "objectID": "content.html",
@@ -56,10 +70,10 @@
     "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Nico Trick",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia."
+    "text": "Peer-reviewed publications:\nDespite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to ‘most recent’ publications, or categorize things by project/topic."
   }
 ]
