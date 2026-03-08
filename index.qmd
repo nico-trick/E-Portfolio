@@ -1,6 +1,6 @@
 ---
 title: "Nico Trick"
-image: images/IMG_8460.jpg
+image: images/IMG_8460.jpeg
 about:
   template: trestles
   image-width: 20em
@@ -18,7 +18,7 @@ In my program, I have developed expertise in GIS, mapping, and remote sensing in
 
 ## Highlights of Skills
 
--   Expertise in spatial and aspatial data analysis
+-   Trained in spatial and aspatial data analysis, mapping, and remote sensing
 -   User experience and user interface (UX/UI) designer and researcher
 -   Accessibility consultant
 -   Leader and organizer of youth engagement workshops

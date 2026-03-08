@@ -1,15 +1,16 @@
 ---
-title: "Publications"
+title: "Gallery"
 ---
 
-Images from past field work campaigns.
+Images from the 2025 field work campaign in Uganda, where I volunteered in collecting and processing lake sediment cores and water samples to explore climate change effects on toxin-producing cyanobacterial blooms while using a portable microscope to share our research with the local community. 
 
 ::: {layout-nrow=2}
-![Surus](images\IMG_4807.jpg)
+![](images\IMG_8353.jpg)
 
-![Hanno](images\IMG_8353.jpg)
+![](images\IMG_4784.jpg)
 
-![Abdul Abbas](images\IMG_4784.jpg)
+![](images\IMG_4323.jpeg)
 
-![Lin Wang](images\IMG_4323.jpeg)
+![](images\IMG_4807.jpg)
+
 :::

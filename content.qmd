@@ -18,7 +18,7 @@ The future of this herd depends on maintaining access to neighbouring mountain g
 
 ![How Human Industrial Activity Impacted Mountain Goat Movement Pathways Around Pinto Creek, AB in 2022.](images/FullMap.jpg)
 
-# **R Project: Comparison of Machine Learning Techniques in Classifying Deciduous or Coniferous Trees in the Petawawa Research Forest**
+# **R Project: Comparison of Machine Learning Techniques in Classifying Trees in the Petawawa Research Forest**
 
 ## Project Description
 
@@ -27,11 +27,11 @@ Forest managers rely on accurate information about where conifer and deciduous t
 ## Code Snippets
 
 ::: {.panel-tabset group="language"}
+Classification Preparation
+
 ## R
 
 ``` (.r)
-# ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION
-
 # List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
 trees_code = [
     ("American beech ", "D"), ("American elm ", "D"), ("Balsam fir ", "C"),
@@ -164,4 +164,4 @@ Nietvelt, C. G., Rochetta, S., & Gordon, S. (2018). The Impacts of Wildfire on M
 
 Parks, L. C., Wallin, D. O., Cushman, S. A., & McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. *Conservation Genetics*, *16*(5), 1195–1207.
 
-White, K. S., & Gregovich, D. P. (2016). *Mountain Goat Resource Selection in Relation to  Mining-related Disturbance, near the Kensington  Mine, Southeast Alaska* (No. ADF&G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf
+White, K. S., & Gregovich, D. P. (2016). *Mountain Goat Resource Selection in Relation to  Mining-related Disturbance, near the Kensington  Mine, Southeast Alaska* (No. ADF&G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf

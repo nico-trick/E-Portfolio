@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#project-description" id="toc-project-description" class="nav-link" data-scroll-target="#project-description">Project Description</a></li>
   <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a></li>
   </ul></li>
-  <li><a href="#r-project-comparison-of-machine-learning-techniques-in-classifying-deciduous-or-coniferous-trees-in-the-petawawa-research-forest" id="toc-r-project-comparison-of-machine-learning-techniques-in-classifying-deciduous-or-coniferous-trees-in-the-petawawa-research-forest" class="nav-link" data-scroll-target="#r-project-comparison-of-machine-learning-techniques-in-classifying-deciduous-or-coniferous-trees-in-the-petawawa-research-forest"><strong>R Project: Comparison of Machine Learning Techniques in Classifying Deciduous or Coniferous Trees in the Petawawa Research Forest</strong></a>
+  <li><a href="#r-project-comparison-of-machine-learning-techniques-in-classifying-trees-in-the-petawawa-research-forest" id="toc-r-project-comparison-of-machine-learning-techniques-in-classifying-trees-in-the-petawawa-research-forest" class="nav-link" data-scroll-target="#r-project-comparison-of-machine-learning-techniques-in-classifying-trees-in-the-petawawa-research-forest"><strong>R Project: Comparison of Machine Learning Techniques in Classifying Trees in the Petawawa Research Forest</strong></a>
   <ul class="collapse">
   <li><a href="#project-description-1" id="toc-project-description-1" class="nav-link" data-scroll-target="#project-description-1">Project Description</a></li>
   <li><a href="#code-snippets" id="toc-code-snippets" class="nav-link" data-scroll-target="#code-snippets">Code Snippets</a></li>
@@ -177,8 +177,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="r-project-comparison-of-machine-learning-techniques-in-classifying-deciduous-or-coniferous-trees-in-the-petawawa-research-forest" class="level1">
-<h1><strong>R Project: Comparison of Machine Learning Techniques in Classifying Deciduous or Coniferous Trees in the Petawawa Research Forest</strong></h1>
+<section id="r-project-comparison-of-machine-learning-techniques-in-classifying-trees-in-the-petawawa-research-forest" class="level1">
+<h1><strong>R Project: Comparison of Machine Learning Techniques in Classifying Trees in the Petawawa Research Forest</strong></h1>
 <section id="project-description-1" class="level2">
 <h2 class="anchored" data-anchor-id="project-description-1">Project Description</h2>
 <p>Forest managers rely on accurate information about where conifer and deciduous trees occur because the two groups differ in growth, wood properties, wildlife value, and carbon storage. Their distinct spectral signatures in remote‑sensing imagery make them good candidates for machine‑learning classification, and the Petawawa Research Forest provides an ideal mixed‑stand test area with strong reference data. However, many studies use a single classification model without evaluating alternatives, leaving uncertainty about whether the chosen method is actually the most effective. By comparing Random Forest and Support Vector Machines using the same predictors, metrics, and dataset, this project identifies which model provides better accuracy and computational efficiency for distinguishing conifer and deciduous trees in Petawawa.</p>
@@ -189,9 +189,7 @@ ul.task-list li input[type="checkbox"] {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Random Forest Classifier</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Support Vector Machines</a></li></ul>
 <div class="tab-content" data-group="language">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<pre class="(.r)"><code># ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION
-
-# List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
+<pre class="(.r)"><code># List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
 trees_code = [
     ("American beech ", "D"), ("American elm ", "D"), ("Balsam fir ", "C"),
     ("Basswood ", "D"), ("Black ash ", "D"), ("Eastern hemlock ", "C"),
@@ -320,7 +318,7 @@ print("--- %s seconds ---" % (time.time() - start_time))</code></pre>
 <p>Hinton Wood Products. (2014). <em>Pinto Creek Mountain Goats Habitat Conservation Strategy</em>. https://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/formain15770/$FILE/pinto-creek-goats-scs.pdf</p>
 <p>Nietvelt, C. G., Rochetta, S., &amp; Gordon, S. (2018). The Impacts of Wildfire on Mountain Goats and Their Winter Range Habitats in a Coastal Ecosystem. <em>Proceedings of the 21st Biennial Northern Wild Sheep &amp; Goat Council Symposium</em>, <em>21</em>, 19–31. https://www.nwsgc.net/proceedings/NWSGC-2018/Nietvelt%20et%20al.pdf</p>
 <p>Parks, L. C., Wallin, D. O., Cushman, S. A., &amp; McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. <em>Conservation Genetics</em>, <em>16</em>(5), 1195–1207.</p>
-<p>White, K. S., &amp; Gregovich, D. P. (2016). <em>Mountain Goat Resource Selection in Relation to&nbsp; Mining-related Disturbance, near the Kensington&nbsp; Mine, Southeast Alaska</em> (No.&nbsp;ADF&amp;G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf</p>
+<p>White, K. S., &amp; Gregovich, D. P. (2016). <em>Mountain Goat Resource Selection in Relation to&nbsp; Mining-related Disturbance, near the Kensington&nbsp; Mine, Southeast Alaska</em> (No.&nbsp;ADF&amp;G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf</p>
 
 
 </section>
