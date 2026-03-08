@@ -12,4 +12,10 @@ about:
 
 ## About Me
 
-I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia. 
+I am a graduate student in the Master of Geomatics for Environmental Management program at the University of British Columbia.
+
+In my program, I have developed expertise in GIS, mapping, and remote sensing in the context of environmental stewardship. My [capstone research project](https://nico-trick.github.io/E-Portfolio/content.html) includes the development of a habitat connectivity pathway model for the Pinto Creek mountain goats, through which I’ve gained not only experience but a great enthusiasm for wildlife habitat modelling and movement analysis. In addition to this specialized geomatics training, my computer science background grants breadth and depth to my technical expertise and research skills.
+
+## Highlights of Skills
+
+• Expertise in spatial and aspatial data analysis • User experience and user interface (UX/UI) designer and researcher • Accessibility consultant • Leader and organizer of youth engagement workshops • Experience working in rural and remote communities in Canada and Africa • Class 5 driver’s license • Proficiency: R, Python, SQL, PostgreSQL, ArcGIS/ESRI Suite, QGIS, Unity, Blender • Experience: HTML/CSS, JavaScript, Java, C/C++

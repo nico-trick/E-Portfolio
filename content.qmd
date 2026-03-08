@@ -1,14 +1,24 @@
 ---
-title: "Content & Deliverables"
+title: "Projects"
 format: html
 editor: visual
 ---
 
-# Project 1 - Capstone Deliverables
+# Capstone: Pinto Creek Mountain Goats
 
-This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
+## Project Description
 
-If you've produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.
+Alberta’s Pinto Creek Canyon is the home to the only canyon-dwelling mountain goats (*Oreamnos Americanus*) in the province (Hinton Wood Products (HWP), 2014). Since 1999, this herd has a population between 25 and 49 individuals, although exact numbers are hard to determine due to the sensitivity of these creatures to human disturbance (HWP, 2014; Côte, 2016). Pinto Creek Canyon is protected as a designated Natural Area, and Hinton Wood Products Ltd. has worked with environmental consultants in protecting the habitat of this herd by adding an additional Special Management Area buffer in the 1-km radius surrounding the Natural Area designation (HWP, 2014). Even with these protections in place, there are concerns about the long-term survival of this mountain goat herd.
+
+Given this herd’s small population size, it is important that there are pathways to connect with other nearby mountain goat herds for genetic diversity and to avoid concerning levels of interbreeding (HWP, 2014). However, with rapidly increasing human landscape-altering activities in the area – such as logging, oil well digging, etc. – it is possible for the routes between herds to be cut off, isolating the canyon-dwelling herd entirely. Landscape disturbance not only creates physical barriers through buildings and environmental excavation, but previous research shows that the noise generated from said activity could cause the mountain goats to avoid the area by up to 1 kilometer (White & Gregovich, 2016).
+
+The future of this herd depends on maintaining access to neighbouring mountain goat population. However, it is unknown by exactly which pathways the Pinto Creek mountain goats have been connecting with neighbouring herds. This study will find the most likely movement routes of the Pinto Creek mountain goat herd and how these routes are impacted by landscape disturbance using least-cost pathway analysis.
+
+## Map
+
+![How Human Industrial Activity Impacted Mountain Goat Movement Pathways Around Pinto Creek, AB in 2022.](images/FullMap.jpg)
+
+# **R Project: Comparison of Machine Learning Techniques in Classifying Deciduous or Coniferous Trees in the Petawawa Research Forest**
 
 ## Leaflet
 
@@ -33,26 +43,119 @@ m
 Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
 
 ::: {.panel-tabset group="language"}
-## R
+## Data Preparation
 
 ``` (.r)
-calc_ndvi <- function(nir, red){
-  ndvi <- (nir-red)/(nir+red)
-  return(ndvi)
-}
+# ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION
+
+# List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
+trees_code = [
+    ("American beech ", "D"), ("American elm ", "D"), ("Balsam fir ", "C"),
+    ("Basswood ", "D"), ("Black ash ", "D"), ("Eastern hemlock ", "C"),
+    ("Ironwood ", "D"), ("Jack pine ", "C"), ("Largetooth aspen ", "D"),
+    ("Northern white cedar ", "C"), ("Norway Spruce ", "C"),
+    ("Red (soft) maple ", "D"), ("Red oak ", "D"), ("Red pine ", "C"),
+    ("Sugar Maple ", "D"), ("Tamarack ", "C"), ("Trembling Aspen ", "D"),
+    ("White birch ", "D"), ("White pine ", "C"), ("White spruce ", "C"),
+    ("Yellow birch ", "D"),
+]
+
+trees_code = pd.DataFrame(trees_code, columns=['species', 'tree_code'])
+df = plots_df.merge(trees_code, how='inner', on='species')
+
+# Merge tree code into plot geodata
+plots_all = plots_xy.merge(df[['plot_id', 'species', 'tree_code']],
+                           on="plot_id", how="left")
+
+plots_all = plots_all.dropna(subset=["tree_code"])
+
+# Extracting ALS metrics
+src = rasterio.open(als_metrics)
+
+# Match CRS
+plots_all = plots_all.to_crs(src.crs)
+
+coords = [(geom.x, geom.y) for geom in plots_all.geometry]
+als_values = list(src.sample(coords))
+als_array = np.array(als_values)
+
+als_cols = [f"metric_{i}" for i in range(als_array.shape[1])]
+als_df = pd.DataFrame(als_array, columns=als_cols)
+
+# Combine ALS + attributes
+df_model = pd.concat([plots_all.reset_index(drop=True),
+                      als_df.reset_index(drop=True)], axis=1)
+
+# CREATE BINARY CLASS (0=Conifer, 1=Deciduous)
+df_model["tree_type"] = df_model["tree_code"].map({"C": 0, "D": 1})
+
+# Remove missing ALS
+df_model = df_model.dropna(subset=als_cols + ["tree_type"])
+
+# Prepare datasets
+X = df_model[als_cols].values    #independent variable
+y = df_model["tree_type"].values #dependent variable
+
+# Spliting
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.3, random_state=42, stratify=y)
 ```
 
-(Assuming *nir* and *red* are terra rast objects)
-
-## Python
+### Random Forest Classifier
 
 ``` (.python)
-def calc_ndvi(nir, red): 
-  ndvi = (nir - red)/(nir + red)
-  return(ndvi)
+# Start timer
+start_time = time.time()
+
+# Fit and train model
+rf = RandomForestClassifier()
+rf.fit(X_train, y_train)
+
+# Predictions
+y_pred = rf.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+# Confusion matrix and classification report
+print("Accuracy:", accuracy)
+rf_conf = confusion_matrix(y_test, y_pred)
+print("\nConfusion Matrix:\n", rf_conf)
+print("\nClassification Report:\n",
+      classification_report(y_test, y_pred, zero_division=0))
+
+# How long program ran
+print("--- %s seconds ---" % (time.time() - start_time))
 ```
 
-(Assuming *nir* and *red* are numpy arrays)
+### Support Vector Machines
+
+``` (.python)
+# Start timer
+start_time = time.time()
+
+# Scale for SVM
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Train SVM model
+svm = SVC(kernel='rbf', C=10, gamma='scale')
+svm.fit(X_train_scaled, y_train)
+
+# Predict
+y_pred = svm.predict(X_test_scaled)
+
+svm_conf = confusion_matrix(y_test, y_pred)
+
+# Results
+print("Accuracy:", round(accuracy_score(y_test, y_pred), 3))
+print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
+print("\nClassification Report:\n",
+      classification_report(y_test, y_pred,
+                            target_names=["Conifer", "Deciduous"]))
+
+# How long program ran
+print("--- %s seconds ---" % (time.time() - start_time))
+```
 :::
 
 ## External links
@@ -69,7 +172,6 @@ src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"
 The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
 
 (To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
-
 
 ```{=html}
 <iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
