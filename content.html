@@ -169,6 +169,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="map" class="level2">
 <h2 class="anchored" data-anchor-id="map">Map</h2>
+<p>Initial results show that key access pathways are cut off by landscape disturbance in 2022, and many access pathways are modified to require goats to travel a longer distance between habitat areas.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/FullMap.jpg" class="img-fluid figure-img"></p>
@@ -186,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="code-snippets" class="level2">
 <h2 class="anchored" data-anchor-id="code-snippets">Code Snippets</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Random Forest Classifier</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Support Vector Machines</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Classification Preparation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Random Forest Classifier</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Support Vector Machines</a></li></ul>
 <div class="tab-content" data-group="language">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <pre class="(.r)"><code># List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
@@ -296,6 +297,7 @@ print("--- %s seconds ---" % (time.time() - start_time))</code></pre>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>While accuracy was found to be comparable between the two classification models, Support Vector Machines produced results much faster – taking a tenth of the time of Random Forest Classifier.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/rf1.png" class="img-fluid figure-img"></p>
@@ -311,13 +313,8 @@ print("--- %s seconds ---" % (time.time() - start_time))</code></pre>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references"><strong>References</strong></h2>
-<p>Alberta Government. (2022, November 1). <em>Mountain Goat and Sheep Areas</em>. Open Government. https://open.alberta.ca/dataset/gda-69164df4-0cea-4293-8b76-ab628fd05b03</p>
-<p>Alberta Government. (2025, July 31). <em>Parks and Protected Areas of Alberta</em>. Open Government. https://open.alberta.ca/opendata/gda-6b96341f-2e19-4885-98af-66d12ed4f8dd</p>
-<p>Chowdhury, S. (2021, October 13). <em>Land disturbances of Alberta, derived from 2017 to 2020 Sentinel-2 multispectral data (image data, TIFF format)</em> [AER/AGS Digital Data]. Alberta Energy Regulator / Alberta Geological Survey. https://ags.aer.ca/publications/all-publications/dig-2021-0019</p>
 <p>Côte, S. (1996). Mountain goat responses to helicopter disturbance. <em>Wildlife Society Bulletin</em>, <em>24</em>(4), 681–685. CABI Databases.</p>
 <p>Hinton Wood Products. (2014). <em>Pinto Creek Mountain Goats Habitat Conservation Strategy</em>. https://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/formain15770/$FILE/pinto-creek-goats-scs.pdf</p>
-<p>Nietvelt, C. G., Rochetta, S., &amp; Gordon, S. (2018). The Impacts of Wildfire on Mountain Goats and Their Winter Range Habitats in a Coastal Ecosystem. <em>Proceedings of the 21st Biennial Northern Wild Sheep &amp; Goat Council Symposium</em>, <em>21</em>, 19–31. https://www.nwsgc.net/proceedings/NWSGC-2018/Nietvelt%20et%20al.pdf</p>
-<p>Parks, L. C., Wallin, D. O., Cushman, S. A., &amp; McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. <em>Conservation Genetics</em>, <em>16</em>(5), 1195–1207.</p>
 <p>White, K. S., &amp; Gregovich, D. P. (2016). <em>Mountain Goat Resource Selection in Relation to&nbsp; Mining-related Disturbance, near the Kensington&nbsp; Mine, Southeast Alaska</em> (No.&nbsp;ADF&amp;G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf</p>
 
 

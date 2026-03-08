@@ -16,6 +16,8 @@ The future of this herd depends on maintaining access to neighbouring mountain g
 
 ## Map
 
+Initial results show that key access pathways are cut off by landscape disturbance in 2022, and many access pathways are modified to require goats to travel a longer distance between habitat areas.
+
 ![How Human Industrial Activity Impacted Mountain Goat Movement Pathways Around Pinto Creek, AB in 2022.](images/FullMap.jpg)
 
 # **R Project: Comparison of Machine Learning Techniques in Classifying Trees in the Petawawa Research Forest**
@@ -27,9 +29,7 @@ Forest managers rely on accurate information about where conifer and deciduous t
 ## Code Snippets
 
 ::: {.panel-tabset group="language"}
-Classification Preparation
-
-## R
+## Classification Preparation
 
 ``` (.r)
 # List of tree species paired with their tree type ("C" = Coniferous, "D" = Deciduous)
@@ -144,24 +144,16 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 ## Results
 
+While accuracy was found to be comparable between the two classification models, Support Vector Machines produced results much faster – taking a tenth of the time of Random Forest Classifier.
+
 ![Individual Tree Species Classification Accuracy and Speed Comparing SVM and RFC.](images/rf1.png)
 
 ![Coniferous Versus Deciduous Classification Accuracy and Speed Comparing SVM and RFC.](images/r2.png)
 
 ## **References**
 
-Alberta Government. (2022, November 1). *Mountain Goat and Sheep Areas*. Open Government. https://open.alberta.ca/dataset/gda-69164df4-0cea-4293-8b76-ab628fd05b03
-
-Alberta Government. (2025, July 31). *Parks and Protected Areas of Alberta*. Open Government. https://open.alberta.ca/opendata/gda-6b96341f-2e19-4885-98af-66d12ed4f8dd
-
-Chowdhury, S. (2021, October 13). *Land disturbances of Alberta, derived from 2017 to 2020 Sentinel-2 multispectral data (image data, TIFF format)* \[AER/AGS Digital Data\]. Alberta Energy Regulator / Alberta Geological Survey. https://ags.aer.ca/publications/all-publications/dig-2021-0019
-
 Côte, S. (1996). Mountain goat responses to helicopter disturbance. *Wildlife Society Bulletin*, *24*(4), 681–685. CABI Databases.
 
 Hinton Wood Products. (2014). *Pinto Creek Mountain Goats Habitat Conservation Strategy*. https://www1.agric.gov.ab.ca/\$department/deptdocs.nsf/all/formain15770/\$FILE/pinto-creek-goats-scs.pdf
-
-Nietvelt, C. G., Rochetta, S., & Gordon, S. (2018). The Impacts of Wildfire on Mountain Goats and Their Winter Range Habitats in a Coastal Ecosystem. *Proceedings of the 21st Biennial Northern Wild Sheep & Goat Council Symposium*, *21*, 19–31. https://www.nwsgc.net/proceedings/NWSGC-2018/Nietvelt%20et%20al.pdf
-
-Parks, L. C., Wallin, D. O., Cushman, S. A., & McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. *Conservation Genetics*, *16*(5), 1195–1207.
 
 White, K. S., & Gregovich, D. P. (2016). *Mountain Goat Resource Selection in Relation to  Mining-related Disturbance, near the Kensington  Mine, Southeast Alaska* (No. ADF&G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf
