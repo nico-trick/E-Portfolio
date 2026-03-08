@@ -68,8 +68,7 @@ Biology Department, University of Saskatchewan
 
 # Publications
 
-Trick, N. (2024). *Accessibility In Video Game Design* (Masters
-dissertation).
+Trick, N. (2024). *Accessibility In Video Game Design* (Masters thesis).
 
 # Conferences & Talks
 

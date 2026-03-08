@@ -1,6 +1,6 @@
 ---
 title: "Nico Trick"
-image: images/dog.jpg
+image: images/IMG_8460.jpg
 about:
   template: trestles
   image-width: 20em
@@ -18,4 +18,11 @@ In my program, I have developed expertise in GIS, mapping, and remote sensing in
 
 ## Highlights of Skills
 
-• Expertise in spatial and aspatial data analysis • User experience and user interface (UX/UI) designer and researcher • Accessibility consultant • Leader and organizer of youth engagement workshops • Experience working in rural and remote communities in Canada and Africa • Class 5 driver’s license • Proficiency: R, Python, SQL, PostgreSQL, ArcGIS/ESRI Suite, QGIS, Unity, Blender • Experience: HTML/CSS, JavaScript, Java, C/C++
+-   Expertise in spatial and aspatial data analysis
+-   User experience and user interface (UX/UI) designer and researcher
+-   Accessibility consultant
+-   Leader and organizer of youth engagement workshops
+-   Experience working in rural and remote communities in Canada and Africa
+-   Class 5 driver’s license
+-   Proficiency: R, Python, SQL, PostgreSQL, ArcGIS/ESRI Suite, QGIS, Unity, Blender
+-   Experience: HTML/CSS, JavaScript, Java, C/C++

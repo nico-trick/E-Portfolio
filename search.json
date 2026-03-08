@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Education\nMaster of Geomatics for Environmental Management — Sept 2025 – Present\nUniversity of British Columbia\n\nCapstone: “Mapping movement corridors of the unique canyon-dwelling Oreamnos Americanus in Pinto Creek Canyon to neighbouring herds”\n\nMaster of Science, Computer Science — Sept 2022 – Dec 2024\nUniversity of Saskatchewan\n\nThesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips\n\nBachelor of Arts and Science, Interactive Systems Design — Sept 2017 – Apr 2022\nUniversity of Saskatchewan (With Great Distinction)\n\n\nEmployment\nInformation Technology/Mobile Design Technician — Oct 2024 – March 2025\nEngineering Mutualism Design Lab, University of Saskatchewan\n\nDesignated 3D printer and 3D scanner operator\nDesigned and built interactive models to engage community in research projects\nWorked with Blender and Ultimaker Cura\n\nResearch Assistant — Oct 2023 – July 2024\nSharedSpaces\n\nManaged 3D artwork database, implemented Augmented Reality (AR) experiences in the SharedSpaces app\nRedesigned app UI using Figma and Unity, tested new design using user surveys\nCreated and led youth workshops on 3D modelling\n\nResearch Assistant — Sept 2022 – Jan 2023\nEnvironmental Material Science (EMS Inc.)\n\nDesigned visualizations for hydrocarbon plumes for environmental monitoring\nConducted quantitative analysis and participant interviews to analyze risk assessment\n\nUndergraduate Student Research Awards Student — May 2022 – Aug 2022\nUniversity of Saskatchewan\n\nDeveloped qualitative and quantitative research skills by developing and running a video game accessibility content analysis\n\nProject Research Assistant — June 2019 – Sept 2019\nBiology Department, University of Saskatchewan\n\nCollected and processed samples from wetlands throughout Saskatchewan for a biodiversity research program monitoring invertebrate populations in farmlands\n\n\n\nPublications\nTrick, N. (2024). Accessibility In Video Game Design (Masters dissertation).\n\n\nConferences & Talks\nPanel: The Role of Generative AI in Games Research — 12 October 2023\nCHI PLAY ’23\n\nInvited speaker representing the use and ethics of generative artificial intelligence in regards to disability, digital games, and academia.\n\n\n\nTeaching Assistantships\nCourses: CMPT140/360/481 — Sept 2022 – Apr 2024\nUniversity of Saskatchewan\n\nRan tutorial labs and provided one-on-one assistance for computer science students\nEvaluated assignments and exams"
+    "text": "Education\nMaster of Geomatics for Environmental Management — Sept 2025 – Present\nUniversity of British Columbia\n\nCapstone: “Mapping movement corridors of the unique canyon-dwelling Oreamnos Americanus in Pinto Creek Canyon to neighbouring herds”\n\nMaster of Science, Computer Science — Sept 2022 – Dec 2024\nUniversity of Saskatchewan\n\nThesis: “Accessibility in Video Game Design”; co-supervised by Lori Bradford and Cody Phillips\n\nBachelor of Arts and Science, Interactive Systems Design — Sept 2017 – Apr 2022\nUniversity of Saskatchewan (With Great Distinction)\n\n\nEmployment\nInformation Technology/Mobile Design Technician — Oct 2024 – March 2025\nEngineering Mutualism Design Lab, University of Saskatchewan\n\nDesignated 3D printer and 3D scanner operator\nDesigned and built interactive models to engage community in research projects\nWorked with Blender and Ultimaker Cura\n\nResearch Assistant — Oct 2023 – July 2024\nSharedSpaces\n\nManaged 3D artwork database, implemented Augmented Reality (AR) experiences in the SharedSpaces app\nRedesigned app UI using Figma and Unity, tested new design using user surveys\nCreated and led youth workshops on 3D modelling\n\nResearch Assistant — Sept 2022 – Jan 2023\nEnvironmental Material Science (EMS Inc.)\n\nDesigned visualizations for hydrocarbon plumes for environmental monitoring\nConducted quantitative analysis and participant interviews to analyze risk assessment\n\nUndergraduate Student Research Awards Student — May 2022 – Aug 2022\nUniversity of Saskatchewan\n\nDeveloped qualitative and quantitative research skills by developing and running a video game accessibility content analysis\n\nProject Research Assistant — June 2019 – Sept 2019\nBiology Department, University of Saskatchewan\n\nCollected and processed samples from wetlands throughout Saskatchewan for a biodiversity research program monitoring invertebrate populations in farmlands\n\n\n\nPublications\nTrick, N. (2024). Accessibility In Video Game Design (Masters thesis).\n\n\nConferences & Talks\nPanel: The Role of Generative AI in Games Research — 12 October 2023\nCHI PLAY ’23\n\nInvited speaker representing the use and ethics of generative artificial intelligence in regards to disability, digital games, and academia.\n\n\n\nTeaching Assistantships\nCourses: CMPT140/360/481 — Sept 2022 – Apr 2024\nUniversity of Saskatchewan\n\nRan tutorial labs and provided one-on-one assistance for computer science students\nEvaluated assignments and exams"
   },
   {
     "objectID": "index.html",
@@ -25,28 +25,7 @@
     "href": "index.html#highlights-of-skills",
     "title": "Nico Trick",
     "section": "Highlights of Skills",
-    "text": "Highlights of Skills\n• Expertise in spatial and aspatial data analysis • User experience and user interface (UX/UI) designer and researcher • Accessibility consultant • Leader and organizer of youth engagement workshops • Experience working in rural and remote communities in Canada and Africa • Class 5 driver’s license • Proficiency: R, Python, SQL, PostgreSQL, ArcGIS/ESRI Suite, QGIS, Unity, Blender • Experience: HTML/CSS, JavaScript, Java, C/C++"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "contact",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "contact.html#quarto",
-    "href": "contact.html#quarto",
-    "title": "contact",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "contact.html#running-code",
-    "href": "contact.html#running-code",
-    "title": "contact",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+    "text": "Highlights of Skills\n\nExpertise in spatial and aspatial data analysis\nUser experience and user interface (UX/UI) designer and researcher\nAccessibility consultant\nLeader and organizer of youth engagement workshops\nExperience working in rural and remote communities in Canada and Africa\nClass 5 driver’s license\nProficiency: R, Python, SQL, PostgreSQL, ArcGIS/ESRI Suite, QGIS, Unity, Blender\nExperience: HTML/CSS, JavaScript, Java, C/C++"
   },
   {
     "objectID": "content.html",
@@ -70,25 +49,60 @@
     "text": "How Human Industrial Activity Impacted Mountain Goat Movement Pathways Around Pinto Creek, AB in 2022."
   },
   {
-    "objectID": "content.html#leaflet",
-    "href": "content.html#leaflet",
+    "objectID": "content.html#project-description-1",
+    "href": "content.html#project-description-1",
     "title": "Projects",
-    "section": "Leaflet",
-    "text": "Leaflet\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here."
+    "section": "Project Description",
+    "text": "Project Description\nForest managers rely on accurate information about where conifer and deciduous trees occur because the two groups differ in growth, wood properties, wildlife value, and carbon storage. Their distinct spectral signatures in remote‑sensing imagery make them good candidates for machine‑learning classification, and the Petawawa Research Forest provides an ideal mixed‑stand test area with strong reference data. However, many studies use a single classification model without evaluating alternatives, leaving uncertainty about whether the chosen method is actually the most effective. By comparing Random Forest and Support Vector Machines using the same predictors, metrics, and dataset, this project identifies which model provides better accuracy and computational efficiency for distinguishing conifer and deciduous trees in Petawawa."
   },
   {
     "objectID": "content.html#code-snippets",
     "href": "content.html#code-snippets",
     "title": "Projects",
     "section": "Code Snippets",
-    "text": "Code Snippets\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nData Preparation\n\n\n# ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION\n\n# List of tree species paired with their tree type (\"C\" = Coniferous, \"D\" = Deciduous)\ntrees_code = [\n    (\"American beech \", \"D\"), (\"American elm \", \"D\"), (\"Balsam fir \", \"C\"),\n    (\"Basswood \", \"D\"), (\"Black ash \", \"D\"), (\"Eastern hemlock \", \"C\"),\n    (\"Ironwood \", \"D\"), (\"Jack pine \", \"C\"), (\"Largetooth aspen \", \"D\"),\n    (\"Northern white cedar \", \"C\"), (\"Norway Spruce \", \"C\"),\n    (\"Red (soft) maple \", \"D\"), (\"Red oak \", \"D\"), (\"Red pine \", \"C\"),\n    (\"Sugar Maple \", \"D\"), (\"Tamarack \", \"C\"), (\"Trembling Aspen \", \"D\"),\n    (\"White birch \", \"D\"), (\"White pine \", \"C\"), (\"White spruce \", \"C\"),\n    (\"Yellow birch \", \"D\"),\n]\n\ntrees_code = pd.DataFrame(trees_code, columns=['species', 'tree_code'])\ndf = plots_df.merge(trees_code, how='inner', on='species')\n\n# Merge tree code into plot geodata\nplots_all = plots_xy.merge(df[['plot_id', 'species', 'tree_code']],\n                           on=\"plot_id\", how=\"left\")\n\nplots_all = plots_all.dropna(subset=[\"tree_code\"])\n\n# Extracting ALS metrics\nsrc = rasterio.open(als_metrics)\n\n# Match CRS\nplots_all = plots_all.to_crs(src.crs)\n\ncoords = [(geom.x, geom.y) for geom in plots_all.geometry]\nals_values = list(src.sample(coords))\nals_array = np.array(als_values)\n\nals_cols = [f\"metric_{i}\" for i in range(als_array.shape[1])]\nals_df = pd.DataFrame(als_array, columns=als_cols)\n\n# Combine ALS + attributes\ndf_model = pd.concat([plots_all.reset_index(drop=True),\n                      als_df.reset_index(drop=True)], axis=1)\n\n# CREATE BINARY CLASS (0=Conifer, 1=Deciduous)\ndf_model[\"tree_type\"] = df_model[\"tree_code\"].map({\"C\": 0, \"D\": 1})\n\n# Remove missing ALS\ndf_model = df_model.dropna(subset=als_cols + [\"tree_type\"])\n\n# Prepare datasets\nX = df_model[als_cols].values    #independent variable\ny = df_model[\"tree_type\"].values #dependent variable\n\n# Spliting\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.3, random_state=42, stratify=y)\n\nRandom Forest Classifier\n# Start timer\nstart_time = time.time()\n\n# Fit and train model\nrf = RandomForestClassifier()\nrf.fit(X_train, y_train)\n\n# Predictions\ny_pred = rf.predict(X_test)\naccuracy = accuracy_score(y_test, y_pred)\n\n# Confusion matrix and classification report\nprint(\"Accuracy:\", accuracy)\nrf_conf = confusion_matrix(y_test, y_pred)\nprint(\"\\nConfusion Matrix:\\n\", rf_conf)\nprint(\"\\nClassification Report:\\n\",\n      classification_report(y_test, y_pred, zero_division=0))\n\n# How long program ran\nprint(\"--- %s seconds ---\" % (time.time() - start_time))\n\n\nSupport Vector Machines\n# Start timer\nstart_time = time.time()\n\n# Scale for SVM\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n\n# Train SVM model\nsvm = SVC(kernel='rbf', C=10, gamma='scale')\nsvm.fit(X_train_scaled, y_train)\n\n# Predict\ny_pred = svm.predict(X_test_scaled)\n\nsvm_conf = confusion_matrix(y_test, y_pred)\n\n# Results\nprint(\"Accuracy:\", round(accuracy_score(y_test, y_pred), 3))\nprint(\"\\nConfusion Matrix:\\n\", confusion_matrix(y_test, y_pred))\nprint(\"\\nClassification Report:\\n\",\n      classification_report(y_test, y_pred,\n                            target_names=[\"Conifer\", \"Deciduous\"]))\n\n# How long program ran\nprint(\"--- %s seconds ---\" % (time.time() - start_time))"
+    "text": "Code Snippets\n\nRRandom Forest ClassifierSupport Vector Machines\n\n\n# ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION\n\n# List of tree species paired with their tree type (\"C\" = Coniferous, \"D\" = Deciduous)\ntrees_code = [\n    (\"American beech \", \"D\"), (\"American elm \", \"D\"), (\"Balsam fir \", \"C\"),\n    (\"Basswood \", \"D\"), (\"Black ash \", \"D\"), (\"Eastern hemlock \", \"C\"),\n    (\"Ironwood \", \"D\"), (\"Jack pine \", \"C\"), (\"Largetooth aspen \", \"D\"),\n    (\"Northern white cedar \", \"C\"), (\"Norway Spruce \", \"C\"),\n    (\"Red (soft) maple \", \"D\"), (\"Red oak \", \"D\"), (\"Red pine \", \"C\"),\n    (\"Sugar Maple \", \"D\"), (\"Tamarack \", \"C\"), (\"Trembling Aspen \", \"D\"),\n    (\"White birch \", \"D\"), (\"White pine \", \"C\"), (\"White spruce \", \"C\"),\n    (\"Yellow birch \", \"D\"),\n]\n\ntrees_code = pd.DataFrame(trees_code, columns=['species', 'tree_code'])\ndf = plots_df.merge(trees_code, how='inner', on='species')\n\n# Merge tree code into plot geodata\nplots_all = plots_xy.merge(df[['plot_id', 'species', 'tree_code']],\n                           on=\"plot_id\", how=\"left\")\n\nplots_all = plots_all.dropna(subset=[\"tree_code\"])\n\n# Extracting ALS metrics\nsrc = rasterio.open(als_metrics)\n\n# Match CRS\nplots_all = plots_all.to_crs(src.crs)\n\ncoords = [(geom.x, geom.y) for geom in plots_all.geometry]\nals_values = list(src.sample(coords))\nals_array = np.array(als_values)\n\nals_cols = [f\"metric_{i}\" for i in range(als_array.shape[1])]\nals_df = pd.DataFrame(als_array, columns=als_cols)\n\n# Combine ALS + attributes\ndf_model = pd.concat([plots_all.reset_index(drop=True),\n                      als_df.reset_index(drop=True)], axis=1)\n\n# CREATE BINARY CLASS (0=Conifer, 1=Deciduous)\ndf_model[\"tree_type\"] = df_model[\"tree_code\"].map({\"C\": 0, \"D\": 1})\n\n# Remove missing ALS\ndf_model = df_model.dropna(subset=als_cols + [\"tree_type\"])\n\n# Prepare datasets\nX = df_model[als_cols].values    #independent variable\ny = df_model[\"tree_type\"].values #dependent variable\n\n# Spliting\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.3, random_state=42, stratify=y)\n\n\n# Start timer\nstart_time = time.time()\n\n# Fit and train model\nrf = RandomForestClassifier()\nrf.fit(X_train, y_train)\n\n# Predictions\ny_pred = rf.predict(X_test)\naccuracy = accuracy_score(y_test, y_pred)\n\n# Confusion matrix and classification report\nprint(\"Accuracy:\", accuracy)\nrf_conf = confusion_matrix(y_test, y_pred)\nprint(\"\\nConfusion Matrix:\\n\", rf_conf)\nprint(\"\\nClassification Report:\\n\",\n      classification_report(y_test, y_pred, zero_division=0))\n\n# How long program ran\nprint(\"--- %s seconds ---\" % (time.time() - start_time))\n\n\n# Start timer\nstart_time = time.time()\n\n# Scale for SVM\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n\n# Train SVM model\nsvm = SVC(kernel='rbf', C=10, gamma='scale')\nsvm.fit(X_train_scaled, y_train)\n\n# Predict\ny_pred = svm.predict(X_test_scaled)\n\nsvm_conf = confusion_matrix(y_test, y_pred)\n\n# Results\nprint(\"Accuracy:\", round(accuracy_score(y_test, y_pred), 3))\nprint(\"\\nConfusion Matrix:\\n\", confusion_matrix(y_test, y_pred))\nprint(\"\\nClassification Report:\\n\",\n      classification_report(y_test, y_pred,\n                            target_names=[\"Conifer\", \"Deciduous\"]))\n\n# How long program ran\nprint(\"--- %s seconds ---\" % (time.time() - start_time))"
   },
   {
-    "objectID": "content.html#external-links",
-    "href": "content.html#external-links",
+    "objectID": "content.html#results",
+    "href": "content.html#results",
     "title": "Projects",
-    "section": "External links",
-    "text": "External links\nYou can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+    "section": "Results",
+    "text": "Results\n\n\n\nIndividual Tree Species Classification Accuracy and Speed Comparing SVM and RFC.\n\n\n\n\n\nConiferous Versus Deciduous Classification Accuracy and Speed Comparing SVM and RFC."
+  },
+  {
+    "objectID": "content.html#references",
+    "href": "content.html#references",
+    "title": "Projects",
+    "section": "References",
+    "text": "References\nAlberta Government. (2022, November 1). Mountain Goat and Sheep Areas. Open Government. https://open.alberta.ca/dataset/gda-69164df4-0cea-4293-8b76-ab628fd05b03\nAlberta Government. (2025, July 31). Parks and Protected Areas of Alberta. Open Government. https://open.alberta.ca/opendata/gda-6b96341f-2e19-4885-98af-66d12ed4f8dd\nChowdhury, S. (2021, October 13). Land disturbances of Alberta, derived from 2017 to 2020 Sentinel-2 multispectral data (image data, TIFF format) [AER/AGS Digital Data]. Alberta Energy Regulator / Alberta Geological Survey. https://ags.aer.ca/publications/all-publications/dig-2021-0019\nCôte, S. (1996). Mountain goat responses to helicopter disturbance. Wildlife Society Bulletin, 24(4), 681–685. CABI Databases.\nHinton Wood Products. (2014). Pinto Creek Mountain Goats Habitat Conservation Strategy. https://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/formain15770/$FILE/pinto-creek-goats-scs.pdf\nNietvelt, C. G., Rochetta, S., & Gordon, S. (2018). The Impacts of Wildfire on Mountain Goats and Their Winter Range Habitats in a Coastal Ecosystem. Proceedings of the 21st Biennial Northern Wild Sheep & Goat Council Symposium, 21, 19–31. https://www.nwsgc.net/proceedings/NWSGC-2018/Nietvelt%20et%20al.pdf\nParks, L. C., Wallin, D. O., Cushman, S. A., & McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. Conservation Genetics, 16(5), 1195–1207.\nWhite, K. S., & Gregovich, D. P. (2016). Mountain Goat Resource Selection in Relation to  Mining-related Disturbance, near the Kensington  Mine, Southeast Alaska (No. ADF&G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "contact",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "contact.html#quarto",
+    "href": "contact.html#quarto",
+    "title": "contact",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "contact.html#running-code",
+    "href": "contact.html#running-code",
+    "title": "contact",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Images from past field work campaigns.\n\n\n\n\n\n\nSurus\n\n\n\n\n\n\n\nHanno\n\n\n\n\n\n\n\n\n\nAbdul Abbas\n\n\n\n\n\n\n\nLin Wang"
   },
   {
     "objectID": "publications.html",

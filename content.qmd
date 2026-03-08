@@ -20,30 +20,14 @@ The future of this herd depends on maintaining access to neighbouring mountain g
 
 # **R Project: Comparison of Machine Learning Techniques in Classifying Deciduous or Coniferous Trees in the Petawawa Research Forest**
 
-## Leaflet
+## Project Description
 
-Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
-
-```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet)
-
-m <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addScaleBar(position = c("bottomleft")) %>%
-  setView(-123.1207, 49.2827, zoom = 11)
-
-```
-
-```{r map, echo=FALSE}
-m
-```
+Forest managers rely on accurate information about where conifer and deciduous trees occur because the two groups differ in growth, wood properties, wildlife value, and carbon storage. Their distinct spectral signatures in remote‑sensing imagery make them good candidates for machine‑learning classification, and the Petawawa Research Forest provides an ideal mixed‑stand test area with strong reference data. However, many studies use a single classification model without evaluating alternatives, leaving uncertainty about whether the chosen method is actually the most effective. By comparing Random Forest and Support Vector Machines using the same predictors, metrics, and dataset, this project identifies which model provides better accuracy and computational efficiency for distinguishing conifer and deciduous trees in Petawawa.
 
 ## Code Snippets
 
-Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
-
 ::: {.panel-tabset group="language"}
-## Data Preparation
+## R
 
 ``` (.r)
 # ADD DECIDUOUS AND CONIFEROUS AND PREPARE CODE FOR CLASSIFICATION
@@ -101,7 +85,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, random_state=42, stratify=y)
 ```
 
-### Random Forest Classifier
+## Random Forest Classifier
 
 ``` (.python)
 # Start timer
@@ -126,7 +110,7 @@ print("\nClassification Report:\n",
 print("--- %s seconds ---" % (time.time() - start_time))
 ```
 
-### Support Vector Machines
+## Support Vector Machines
 
 ``` (.python)
 # Start timer
@@ -158,21 +142,26 @@ print("--- %s seconds ---" % (time.time() - start_time))
 ```
 :::
 
-## External links
+## Results
 
-You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:
+![Individual Tree Species Classification Accuracy and Speed Comparing SVM and RFC.](images/rf1.png)
 
-```{code}
+![Coniferous Versus Deciduous Classification Accuracy and Speed Comparing SVM and RFC.](images/r2.png)
 
-<iframe width="900" height="700"
-src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool">
-</iframe>
-```
+## **References**
 
-The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
+Alberta Government. (2022, November 1). *Mountain Goat and Sheep Areas*. Open Government. https://open.alberta.ca/dataset/gda-69164df4-0cea-4293-8b76-ab628fd05b03
 
-(To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
+Alberta Government. (2025, July 31). *Parks and Protected Areas of Alberta*. Open Government. https://open.alberta.ca/opendata/gda-6b96341f-2e19-4885-98af-66d12ed4f8dd
 
-```{=html}
-<iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
-```
+Chowdhury, S. (2021, October 13). *Land disturbances of Alberta, derived from 2017 to 2020 Sentinel-2 multispectral data (image data, TIFF format)* \[AER/AGS Digital Data\]. Alberta Energy Regulator / Alberta Geological Survey. https://ags.aer.ca/publications/all-publications/dig-2021-0019
+
+Côte, S. (1996). Mountain goat responses to helicopter disturbance. *Wildlife Society Bulletin*, *24*(4), 681–685. CABI Databases.
+
+Hinton Wood Products. (2014). *Pinto Creek Mountain Goats Habitat Conservation Strategy*. https://www1.agric.gov.ab.ca/\$department/deptdocs.nsf/all/formain15770/\$FILE/pinto-creek-goats-scs.pdf
+
+Nietvelt, C. G., Rochetta, S., & Gordon, S. (2018). The Impacts of Wildfire on Mountain Goats and Their Winter Range Habitats in a Coastal Ecosystem. *Proceedings of the 21st Biennial Northern Wild Sheep & Goat Council Symposium*, *21*, 19–31. https://www.nwsgc.net/proceedings/NWSGC-2018/Nietvelt%20et%20al.pdf
+
+Parks, L. C., Wallin, D. O., Cushman, S. A., & McRae, B. H. (2015). Landscape-level analysis of mountain goat population connectivity in Washington and southern British Columbia. *Conservation Genetics*, *16*(5), 1195–1207.
+
+White, K. S., & Gregovich, D. P. (2016). *Mountain Goat Resource Selection in Relation to  Mining-related Disturbance, near the Kensington  Mine, Southeast Alaska* (No. ADF&G/DWC/WRR–2016–2; Wildlife Research Report). Alaska Department of Fish and Game - Division of Wildlife Conservation. https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/wrr_2016_2_mountain_goat_resource_selection_mining_disturbance_kensington_southeast.pdf

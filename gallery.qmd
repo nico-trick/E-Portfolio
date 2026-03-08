@@ -1,0 +1,15 @@
+---
+title: "Publications"
+---
+
+Images from past field work campaigns.
+
+::: {layout-nrow=2}
+![Surus](images\IMG_4807.jpg)
+
+![Hanno](images\IMG_8353.jpg)
+
+![Abdul Abbas](images\IMG_4784.jpg)
+
+![Lin Wang](images\IMG_4323.jpeg)
+:::

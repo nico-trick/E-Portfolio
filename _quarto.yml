@@ -3,17 +3,17 @@ project:
   output-dir: C:\Users\ntrick8.stu\OneDrive - UBC\Documents\GitHub\E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "Nico Trick"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: resume.qmd
         text: Resume
-      - href: publications.qmd
-        text: Publications
       - href: content.qmd
-        text: Content & Deliverables
+        text: Projects
+      - href: gallery.qmd
+        text: Gallery
      
      
 format:
@@ -23,4 +23,5 @@ format:
     toc: true
 
 editor: visual
+
 
