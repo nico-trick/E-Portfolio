@@ -14,7 +14,7 @@ Given this herd’s small population size, it is important that there are pathwa
 
 The future of this herd depends on maintaining access to neighbouring mountain goat population. However, it is unknown by exactly which pathways the Pinto Creek mountain goats have been connecting with neighbouring herds. This study will find the most likely movement routes of the Pinto Creek mountain goat herd and how these routes are impacted by landscape disturbance using least-cost pathway analysis.
 
-## Map
+## Results
 
 Initial results show that key access pathways are cut off by landscape disturbance in 2022, and many access pathways are modified to require goats to travel a longer distance between habitat areas.
 
